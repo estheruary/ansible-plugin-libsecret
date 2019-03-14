@@ -5,6 +5,8 @@ from __future__ import (absolute_import, division, print_function)
 __metaclass__ = type
 from ansible.plugins.lookup import LookupBase
 
+import gi
+gi.require_version('Secret', '1')
 from gi.repository import Secret
 
 DOCUMENTATION = """
