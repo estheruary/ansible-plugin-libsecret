@@ -19,7 +19,7 @@ This plug-in does not depend on any external variables.
 Deficiencies
 ------------
 
-* Can only use the default `Secret.Service` proxy. [Ref](https://lazka.github.io/pgi-docs/Secret-1/classes/Service.html#Secret.Service.get_sync)
+* Can only use the default `Secret.Service` proxy ([ref](https://lazka.github.io/pgi-docs/Secret-1/classes/Service.html#Secret.Service.get_sync)).
 
 Examples
 --------
@@ -53,7 +53,7 @@ Here's an example of the return value.
       'secret': {
         'content_type': 'text/plain',
         'data': b'Ex@mp1e',
-	'text': 'Ex@mp1e'
+        'text': 'Ex@mp1e'
       }
     }
 
