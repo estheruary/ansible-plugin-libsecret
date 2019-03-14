@@ -2,7 +2,7 @@
 - hosts: localhost
   remote_user: root
   roles:
-    - .
+    - ../ansible-plugin-libsecret
   tasks:
     - debug:
-        var: "{{ lookup('libsecret', { 'key': 'value' }) }}"
+        msg: "{{ lookup('libsecret', { 'key1': 'value1' }) }}"
